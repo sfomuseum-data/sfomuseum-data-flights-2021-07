@@ -2,10 +2,12 @@
   "id": 1745994153,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-01",
+    "date:cessation_upper": "2021-07-01",
     "date:inception_lower": "2021-07-01",
     "date:inception_upper": "2021-07-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-01",
+    "edtf:cessation": "2021-07-01T20:16:00Z",
+    "edtf:inception": "2021-07-01T04:21:42-07:00",
     "flysfo:actual_timestamp": 1625180400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-07-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.333376,
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529173,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "158802090",
+      "swim:gufi": "KO56399500"
+    },
     "wof:country": "US",
     "wof:created": 1625242658,
     "wof:geomhash": "029159a11f35cb7f92e728b838da58ba",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1745994153,
     "wof:involves": [
+      1745882317, 
+      1159289407, 
       102529173, 
       102527513, 
-      1159285413, 
-      1745882317
+      1159285413
     ],
-    "wof:lastmodified": 1625242658,
+    "wof:lastmodified": 1625242763,
     "wof:name": "UA1775 (SFO-ABQ)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "event",
