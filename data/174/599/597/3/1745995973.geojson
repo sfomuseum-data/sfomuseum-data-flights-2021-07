@@ -2,10 +2,12 @@
   "id": 1745995973,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-02",
+    "date:cessation_upper": "2021-07-02",
     "date:inception_lower": "2021-07-02",
     "date:inception_upper": "2021-07-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-02",
+    "edtf:cessation": "2021-07-02T14:13:29Z",
+    "edtf:inception": "2021-07-02T13:21:00Z",
     "flysfo:actual_timestamp": 1625266800,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-07-02",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +54,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "158865444"
+    },
     "wof:country": "US",
     "wof:created": 1625328425,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -84,7 +93,7 @@
       1159285591, 
       1745882151
     ],
-    "wof:lastmodified": 1625328425,
+    "wof:lastmodified": 1625329047,
     "wof:name": "WN1228 (LAX-SFO)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "event",
