@@ -2,10 +2,12 @@
   "id": 1746000089,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-03",
+    "date:cessation_upper": "2021-07-03",
     "date:inception_lower": "2021-07-03",
     "date:inception_upper": "2021-07-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-03",
+    "edtf:cessation": "2021-07-03T14:48:00Z",
+    "edtf:inception": "2021-07-03T12:39:00Z",
     "flysfo:actual_timestamp": 1625353200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-07-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,19 +38,27 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "159008233",
+      "swim:gufi": "KD24337700"
+    },
     "wof:country": "US",
     "wof:created": 1625414895,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
     "wof:hierarchy": [],
     "wof:id": 1746000089,
     "wof:involves": [
-      102527513, 
-      102531189, 
       1159285413, 
-      -1
+      1159292085, 
+      102527513, 
+      102531189
     ],
-    "wof:lastmodified": 1625414895,
+    "wof:lastmodified": 1625415414,
     "wof:name": "UA2732 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

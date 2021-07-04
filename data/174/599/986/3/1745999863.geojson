@@ -2,10 +2,12 @@
   "id": 1745999863,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-03",
+    "date:cessation_upper": "2021-07-03",
     "date:inception_lower": "2021-07-03",
     "date:inception_upper": "2021-07-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-03",
+    "edtf:cessation": "2021-07-03T23:40:43Z",
+    "edtf:inception": "2021-07-03T12:05:00Z",
     "flysfo:actual_timestamp": 1625355840,
     "flysfo:airline": "LX",
     "flysfo:date": "2021-07-03",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +54,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "158945773"
+    },
     "wof:country": "US",
     "wof:created": 1625414836,
     "wof:geomhash": "59c1b41e582a5fde12da38b49a2c462f",
@@ -84,7 +93,7 @@
       1159286475, 
       1745882417
     ],
-    "wof:lastmodified": 1625414836,
+    "wof:lastmodified": 1625415413,
     "wof:name": "LX38 (ZRH-SFO)",
     "wof:parent_id": 1745882417,
     "wof:placetype": "event",
