@@ -2,10 +2,12 @@
   "id": 1746002949,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-07-04",
-    "date:inception_upper": "2021-07-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-04",
+    "date:cessation_lower": "2021-07-04",
+    "date:cessation_upper": "2021-07-04",
+    "date:inception_lower": "2021-07-05",
+    "date:inception_upper": "2021-07-05",
+    "edtf:cessation": "2021-07-04T14:15:19-07:00",
+    "edtf:inception": "2021-07-05T00:34:00Z",
     "flysfo:actual_timestamp": 1625458740,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-07-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +55,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KP80997100"
+    },
     "wof:country": "US",
     "wof:created": 1625501072,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -79,12 +89,13 @@
     ],
     "wof:id": 1746002949,
     "wof:involves": [
+      1159289411, 
       102527513, 
       102531131, 
       1159284261, 
       1745882115
     ],
-    "wof:lastmodified": 1625501072,
+    "wof:lastmodified": 1625501830,
     "wof:name": "DL2358 (MSP-SFO)",
     "wof:parent_id": 1745882115,
     "wof:placetype": "event",
