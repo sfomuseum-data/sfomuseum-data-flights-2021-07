@@ -2,10 +2,12 @@
   "id": 1746007023,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-06",
+    "date:cessation_upper": "2021-07-06",
     "date:inception_lower": "2021-07-05",
     "date:inception_upper": "2021-07-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-05",
+    "edtf:cessation": "2021-07-06T02:23:29Z",
+    "edtf:inception": "2021-07-05T13:33:38Z",
     "flysfo:actual_timestamp": 1625526000,
     "flysfo:airline": "PR",
     "flysfo:date": "2021-07-05",
@@ -48,6 +50,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "159147294"
+    },
     "wof:country": "US",
     "wof:created": 1625587647,
     "wof:geomhash": "5a4fd58c6aeb5f6f6368af3561d0b192",
@@ -84,7 +89,7 @@
       1159285015, 
       1745882339
     ],
-    "wof:lastmodified": 1625587647,
+    "wof:lastmodified": 1625588342,
     "wof:name": "PR104 (MNL-SFO)",
     "wof:parent_id": 1745882339,
     "wof:placetype": "event",
