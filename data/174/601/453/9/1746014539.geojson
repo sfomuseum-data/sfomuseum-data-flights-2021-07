@@ -2,10 +2,12 @@
   "id": 1746014539,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-07",
+    "date:cessation_upper": "2021-07-07",
     "date:inception_lower": "2021-07-07",
     "date:inception_upper": "2021-07-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-07",
+    "edtf:cessation": "2021-07-07T06:29:53Z",
+    "edtf:inception": "2021-07-07T05:00:00Z",
     "flysfo:actual_timestamp": 1625698800,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-07-07",
@@ -48,6 +50,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "159217480"
+    },
     "wof:country": "US",
     "wof:created": 1625760421,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -84,7 +89,7 @@
       1159285591, 
       1745882159
     ],
-    "wof:lastmodified": 1625760421,
+    "wof:lastmodified": 1625761042,
     "wof:name": "WN3206 (SLC-SFO)",
     "wof:parent_id": 1745882159,
     "wof:placetype": "event",
