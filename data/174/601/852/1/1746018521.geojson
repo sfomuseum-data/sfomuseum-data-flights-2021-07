@@ -2,10 +2,12 @@
   "id": 1746018521,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-08",
+    "date:cessation_upper": "2021-07-08",
     "date:inception_lower": "2021-07-08",
     "date:inception_upper": "2021-07-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-08",
+    "edtf:cessation": "2021-07-08T16:45:00Z",
+    "edtf:inception": "2021-07-08T11:40:00Z",
     "flysfo:actual_timestamp": 1625762820,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-07-08",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +54,9 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "159312051"
+    },
     "wof:country": "US",
     "wof:created": 1625846966,
     "wof:geomhash": "e1d14091bb010ff3febce3dc78c1c8b4",
@@ -84,7 +93,7 @@
       1159285413, 
       1745882309
     ],
-    "wof:lastmodified": 1625846966,
+    "wof:lastmodified": 1625847574,
     "wof:name": "UA1620 (RDU-SFO)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "event",

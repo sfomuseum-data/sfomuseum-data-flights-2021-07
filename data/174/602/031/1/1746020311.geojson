@@ -2,10 +2,12 @@
   "id": 1746020311,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-08",
+    "date:cessation_upper": "2021-07-08",
     "date:inception_lower": "2021-07-08",
     "date:inception_upper": "2021-07-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-08",
+    "edtf:cessation": "2021-07-08T19:34:07Z",
+    "edtf:inception": "2021-07-08T18:04:00Z",
     "flysfo:actual_timestamp": 1625766900,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-07-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61233689792174,
     "lbl:longitude": -122.38465899796505,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "159344431"
+    },
     "wof:country": "US",
     "wof:created": 1625847418,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -82,9 +93,10 @@
       102526751, 
       102527513, 
       1159285591, 
-      1745882151
+      1745882151, 
+      1528104575
     ],
-    "wof:lastmodified": 1625847418,
+    "wof:lastmodified": 1625847567,
     "wof:name": "WN1942 (SFO-PHX)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "event",

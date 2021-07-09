@@ -2,10 +2,12 @@
   "id": 1746018357,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-08",
+    "date:cessation_upper": "2021-07-08",
     "date:inception_lower": "2021-07-08",
     "date:inception_upper": "2021-07-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-08",
+    "edtf:cessation": "2021-07-08T23:02:23Z",
+    "edtf:inception": "2021-07-08T11:45:00Z",
     "flysfo:actual_timestamp": 1625785200,
     "flysfo:airline": "LX",
     "flysfo:date": "2021-07-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.536891499999996,
     "geom:longitude": -56.9056255,
     "iata:airline": "LX",
+    "icao:aircraft": "B77W",
     "icao:airline": "SWR",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159286475,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102553957,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "159311436"
+    },
     "wof:country": "US",
     "wof:created": 1625846920,
     "wof:geomhash": "59c1b41e582a5fde12da38b49a2c462f",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746018357,
     "wof:involves": [
-      102527513, 
       102553957, 
       1159286475, 
-      1745882421
+      1745882421, 
+      1159289993, 
+      102527513
     ],
-    "wof:lastmodified": 1625846920,
+    "wof:lastmodified": 1625847572,
     "wof:name": "LX38 (ZRH-SFO)",
     "wof:parent_id": 1745882421,
     "wof:placetype": "event",
