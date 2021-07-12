@@ -2,10 +2,12 @@
   "id": 1746029197,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-11",
+    "date:cessation_upper": "2021-07-11",
     "date:inception_lower": "2021-07-11",
     "date:inception_upper": "2021-07-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-11",
+    "edtf:cessation": "2021-07-11T20:33:34Z",
+    "edtf:inception": "2021-07-11T11:38:50Z",
     "flysfo:actual_timestamp": 1626044400,
     "flysfo:airline": "NH",
     "flysfo:date": "2021-07-11",
@@ -48,6 +50,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "159640172"
+    },
     "wof:country": "US",
     "wof:created": 1626105805,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -84,7 +89,7 @@
       1159283875, 
       1745882419
     ],
-    "wof:lastmodified": 1626105805,
+    "wof:lastmodified": 1626106745,
     "wof:name": "NH9644 (NRT-SFO)",
     "wof:parent_id": 1745882419,
     "wof:placetype": "event",
