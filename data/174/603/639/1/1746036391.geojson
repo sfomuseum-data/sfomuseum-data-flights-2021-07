@@ -2,10 +2,12 @@
   "id": 1746036391,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-07-12",
-    "date:inception_upper": "2021-07-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-12",
+    "date:cessation_lower": "2021-07-13",
+    "date:cessation_upper": "2021-07-13",
+    "date:inception_lower": "2021-07-13",
+    "date:inception_upper": "2021-07-13",
+    "edtf:cessation": "2021-07-13T10:18:00Z",
+    "edtf:inception": "2021-07-13T05:43:00Z",
     "flysfo:actual_timestamp": 1626130800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-07-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.7471565,
     "geom:longitude": -100.580671,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528779,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "159637093",
+      "swim:gufi": "KO11610300"
+    },
     "wof:country": "US",
     "wof:created": 1626193114,
     "wof:geomhash": "739cf7062aa24bbf1662c0bae366af8d",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746036391,
     "wof:involves": [
-      102528779, 
-      102527513, 
       1159285413, 
-      1745882311
+      1745882311, 
+      1377564285, 
+      102528779, 
+      102527513
     ],
-    "wof:lastmodified": 1626193114,
+    "wof:lastmodified": 1626193183,
     "wof:name": "UA549 (SFO-RDU)",
     "wof:parent_id": 1745882311,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1746033407,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-13",
+    "date:cessation_upper": "2021-07-13",
     "date:inception_lower": "2021-07-12",
     "date:inception_upper": "2021-07-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-12",
+    "edtf:cessation": "2021-07-13T02:24:01Z",
+    "edtf:inception": "2021-07-12T21:54:00Z",
     "flysfo:actual_timestamp": 1626143280,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-07-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616987,
     "lbl:longitude": -122.382479,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532929,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "159690219"
+    },
     "wof:country": "US",
     "wof:created": 1626192307,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746033407,
     "wof:involves": [
+      1377564285, 
       102527513, 
       102532929, 
       1159283813, 
       1745882089
     ],
-    "wof:lastmodified": 1626192307,
+    "wof:lastmodified": 1626193172,
     "wof:name": "AS244 (OGG-SFO)",
     "wof:parent_id": 1745882089,
     "wof:placetype": "event",
