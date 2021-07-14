@@ -2,10 +2,12 @@
   "id": 1746038165,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-07-13",
-    "date:inception_upper": "2021-07-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-13",
+    "date:cessation_lower": "2021-07-13",
+    "date:cessation_upper": "2021-07-13",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2021-07-13T16:35:19-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1626217200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-07-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618774,
     "lbl:longitude": -122.384852,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -82,9 +89,10 @@
       102527513, 
       102533269, 
       1159285413, 
-      1745882305
+      1745882305, 
+      1159289407
     ],
-    "wof:lastmodified": 1626278996,
+    "wof:lastmodified": 1626279573,
     "wof:name": "UA214 (SEA-SFO)",
     "wof:parent_id": 1745882305,
     "wof:placetype": "event",
