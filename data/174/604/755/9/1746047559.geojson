@@ -2,10 +2,12 @@
   "id": 1746047559,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-21",
+    "date:cessation_upper": "2021-07-21",
     "date:inception_lower": "2021-07-21",
     "date:inception_upper": "2021-07-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-21",
+    "edtf:cessation": "2021-07-21T23:31:00Z",
+    "edtf:inception": "2021-07-21T20:03:00Z",
     "flysfo:actual_timestamp": 1626910380,
     "flysfo:airline": "SY",
     "flysfo:date": "2021-07-21",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +53,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "160444312"
+    },
     "wof:country": "US",
     "wof:created": 1626970130,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -84,7 +92,7 @@
       1159285227, 
       1745882399
     ],
-    "wof:lastmodified": 1626970130,
+    "wof:lastmodified": 1626970768,
     "wof:name": "SY395 (MSP-SFO)",
     "wof:parent_id": 1745882399,
     "wof:placetype": "event",

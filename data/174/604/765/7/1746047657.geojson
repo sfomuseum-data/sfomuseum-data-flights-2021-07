@@ -2,10 +2,12 @@
   "id": 1746047657,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-21",
+    "date:cessation_upper": "2021-07-21",
     "date:inception_lower": "2021-07-21",
     "date:inception_upper": "2021-07-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-21",
+    "edtf:cessation": "2021-07-21T23:08:00Z",
+    "edtf:inception": "2021-07-21T22:19:00Z",
     "flysfo:actual_timestamp": 1626908400,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-07-21",
@@ -34,7 +36,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "160456593"
+    },
     "wof:country": "US",
     "wof:created": 1626970158,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -46,7 +55,7 @@
       1159285591, 
       -1
     ],
-    "wof:lastmodified": 1626970158,
+    "wof:lastmodified": 1626970770,
     "wof:name": "WN5759 (BUR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
