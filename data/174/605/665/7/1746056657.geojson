@@ -2,10 +2,12 @@
   "id": 1746056657,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-23",
+    "date:cessation_upper": "2021-07-23",
     "date:inception_lower": "2021-07-23",
     "date:inception_upper": "2021-07-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-23",
+    "edtf:cessation": "2021-07-23T21:53:50Z",
+    "edtf:inception": "2021-07-23T18:22:00Z",
     "flysfo:actual_timestamp": 1627081200,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-07-23",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +53,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "160622506"
+    },
     "wof:country": "US",
     "wof:created": 1627143382,
     "wof:geomhash": "ae49e61cad725fa4577f8355bb7297ad",
@@ -84,7 +92,7 @@
       1159283813, 
       1745882107
     ],
-    "wof:lastmodified": 1627143382,
+    "wof:lastmodified": 1627143768,
     "wof:name": "AS1272 (SFO-PVR)",
     "wof:parent_id": 1745882107,
     "wof:placetype": "event",
