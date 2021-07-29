@@ -2,10 +2,12 @@
   "id": 1746078329,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-28",
+    "date:cessation_upper": "2021-07-28",
     "date:inception_lower": "2021-07-28",
     "date:inception_upper": "2021-07-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-28",
+    "edtf:cessation": "2021-07-28T06:24:00Z",
+    "edtf:inception": "2021-07-28T02:38:00Z",
     "flysfo:actual_timestamp": 1627513200,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-07-28",
@@ -48,6 +50,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161035431"
+    },
     "wof:country": "US",
     "wof:created": 1627574930,
     "wof:geomhash": "8bd991e482bcf36ddd2853888cc33b19",
@@ -84,7 +89,7 @@
       1159285591, 
       1745882157
     ],
-    "wof:lastmodified": 1627574930,
+    "wof:lastmodified": 1627575639,
     "wof:name": "WN4552 (ALB-SFO)",
     "wof:parent_id": 1745882157,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1746079441,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2021-07-28",
     "date:inception_upper": "2021-07-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-28",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2021-07-28T03:26:53-07:00",
     "flysfo:actual_timestamp": 1627513200,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-07-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.1517615,
     "geom:longitude": -121.98042749999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530559,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1627575248,
@@ -41,12 +48,12 @@
     "wof:hierarchy": [],
     "wof:id": 1746079441,
     "wof:involves": [
+      1159292085, 
       102530559, 
       102527513, 
-      1159283813, 
-      -1
+      1159283813
     ],
-    "wof:lastmodified": 1627575248,
+    "wof:lastmodified": 1627575647,
     "wof:name": "AS9802 (SFO-SMF)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

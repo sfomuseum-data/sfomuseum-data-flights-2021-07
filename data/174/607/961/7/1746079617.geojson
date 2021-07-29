@@ -2,10 +2,12 @@
   "id": 1746079617,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-28",
+    "date:cessation_upper": "2021-07-28",
     "date:inception_lower": "2021-07-28",
     "date:inception_upper": "2021-07-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-28",
+    "edtf:cessation": "2021-07-28T18:43:00Z",
+    "edtf:inception": "2021-07-28T14:39:00Z",
     "flysfo:actual_timestamp": 1627482480,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-07-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102525635,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161070463",
+      "swim:gufi": "KO49256400"
+    },
     "wof:country": "US",
     "wof:created": 1627575293,
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746079617,
     "wof:involves": [
+      1745882111, 
+      1377564285, 
       102525635, 
       102527513, 
-      1159284261, 
-      1745882111
+      1159284261
     ],
-    "wof:lastmodified": 1627575293,
+    "wof:lastmodified": 1627575648,
     "wof:name": "DL868 (SFO-DTW)",
     "wof:parent_id": 1745882111,
     "wof:placetype": "event",

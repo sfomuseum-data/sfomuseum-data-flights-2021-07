@@ -2,10 +2,12 @@
   "id": 1746077729,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-28",
+    "date:cessation_upper": "2021-07-28",
     "date:inception_lower": "2021-07-28",
     "date:inception_upper": "2021-07-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-28",
+    "edtf:cessation": "2021-07-28T04:05:13-07:00",
+    "edtf:inception": "2021-07-28T14:36:00Z",
     "flysfo:actual_timestamp": 1627495740,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-07-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161070507",
+      "swim:gufi": "KP49137400"
+    },
     "wof:country": "US",
     "wof:created": 1627574771,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746077729,
     "wof:involves": [
-      102527513, 
       102531131, 
       1159284261, 
-      1745882111
+      1745882111, 
+      1377564285, 
+      102527513
     ],
-    "wof:lastmodified": 1627574771,
+    "wof:lastmodified": 1627575634,
     "wof:name": "DL1047 (MSP-SFO)",
     "wof:parent_id": 1745882111,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1746078837,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-28",
+    "date:cessation_upper": "2021-07-28",
     "date:inception_lower": "2021-07-28",
     "date:inception_upper": "2021-07-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-28",
+    "edtf:cessation": "2021-07-28T18:08:00Z",
+    "edtf:inception": "2021-07-28T15:01:00Z",
     "flysfo:actual_timestamp": 1627513200,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-07-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.260825,
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:departure_id": 102527513,
@@ -34,19 +38,27 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "161134095",
+      "swim:gufi": "KO49563400"
+    },
     "wof:country": "US",
     "wof:created": 1627575085,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
     "wof:hierarchy": [],
     "wof:id": 1746078837,
     "wof:involves": [
+      1159289871, 
       102528541, 
       102527513, 
-      1159283849, 
-      -1
+      1159283849
     ],
-    "wof:lastmodified": 1627575085,
+    "wof:lastmodified": 1627575646,
     "wof:name": "AA2653 (SFO-DFW)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
