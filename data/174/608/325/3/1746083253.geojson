@@ -2,10 +2,12 @@
   "id": 1746083253,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-29",
+    "date:cessation_upper": "2021-07-29",
     "date:inception_lower": "2021-07-29",
     "date:inception_upper": "2021-07-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-29",
+    "edtf:cessation": "2021-07-29T20:24:22Z",
+    "edtf:inception": "2021-07-29T15:24:00Z",
     "flysfo:actual_timestamp": 1627571220,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-07-29",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +54,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161175795"
+    },
     "wof:country": "US",
     "wof:created": 1627661650,
     "wof:geomhash": "df4d5906f2523703f9da91c779be1785",
@@ -84,7 +93,7 @@
       1159283813, 
       1745882105
     ],
-    "wof:lastmodified": 1627661650,
+    "wof:lastmodified": 1627662063,
     "wof:name": "AS1001 (SFO-DCA)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "event",
