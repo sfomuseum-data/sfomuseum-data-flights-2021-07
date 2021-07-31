@@ -2,10 +2,12 @@
   "id": 1746086365,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-07-30",
-    "date:inception_upper": "2021-07-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-30",
+    "date:cessation_lower": "2021-07-30",
+    "date:cessation_upper": "2021-07-30",
+    "date:inception_lower": "2021-07-31",
+    "date:inception_upper": "2021-07-31",
+    "edtf:cessation": "2021-07-30T16:44:07-07:00",
+    "edtf:inception": "2021-07-31T02:48:00Z",
     "flysfo:actual_timestamp": 1627686000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-07-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161239982",
+      "swim:gufi": "KG06972700"
+    },
     "wof:country": "US",
     "wof:created": 1627747751,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746086365,
     "wof:involves": [
-      102527513, 
-      102533631, 
       1159285413, 
-      1745882293
+      1745882293, 
+      1159289407, 
+      102527513, 
+      102533631
     ],
-    "wof:lastmodified": 1627747751,
+    "wof:lastmodified": 1627748410,
     "wof:name": "UA1494 (ORD-SFO)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "event",

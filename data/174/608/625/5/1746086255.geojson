@@ -2,10 +2,12 @@
   "id": 1746086255,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-30",
+    "date:cessation_upper": "2021-07-30",
     "date:inception_lower": "2021-07-30",
     "date:inception_upper": "2021-07-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-30",
+    "edtf:cessation": "2021-07-30T06:29:00Z",
+    "edtf:inception": "2021-07-30T05:01:00Z",
     "flysfo:actual_timestamp": 1627686000,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-07-30",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "161243700"
+    },
     "wof:country": "US",
     "wof:created": 1627747721,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -46,7 +51,7 @@
       1159285591, 
       -1
     ],
-    "wof:lastmodified": 1627747721,
+    "wof:lastmodified": 1627748409,
     "wof:name": "WN549 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

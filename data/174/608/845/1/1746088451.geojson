@@ -2,10 +2,12 @@
   "id": 1746088451,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-30",
+    "date:cessation_upper": "2021-07-30",
     "date:inception_lower": "2021-07-30",
     "date:inception_upper": "2021-07-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-30",
+    "edtf:cessation": "2021-07-30T21:17:26Z",
+    "edtf:inception": "2021-07-30T16:11:00Z",
     "flysfo:actual_timestamp": 1627659900,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-07-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161281570",
+      "swim:gufi": "KO49496600"
+    },
     "wof:country": "US",
     "wof:created": 1627748290,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746088451,
     "wof:involves": [
+      1745882303, 
+      1159289871, 
       102530741, 
       102527513, 
-      1159285413, 
-      1745882303
+      1159285413
     ],
-    "wof:lastmodified": 1627748290,
+    "wof:lastmodified": 1627748412,
     "wof:name": "UA2640 (SFO-BOS)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "event",
