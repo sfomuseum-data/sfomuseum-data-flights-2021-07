@@ -2,10 +2,12 @@
   "id": 1746092053,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2021-07-31",
     "date:inception_upper": "2021-07-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-31",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2021-07-31T15:05:52-07:00",
     "flysfo:actual_timestamp": 1627793460,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-07-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -82,9 +90,10 @@
       102533575, 
       102527513, 
       1159285413, 
-      1745882413
+      1745882413, 
+      1159292085
     ],
-    "wof:lastmodified": 1627834639,
+    "wof:lastmodified": 1627834793,
     "wof:name": "UA1165 (SFO-ONT)",
     "wof:parent_id": 1745882413,
     "wof:placetype": "event",

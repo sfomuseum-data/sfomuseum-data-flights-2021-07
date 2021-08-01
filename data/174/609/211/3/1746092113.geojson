@@ -2,10 +2,12 @@
   "id": 1746092113,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-08-01",
+    "date:cessation_upper": "2021-08-01",
     "date:inception_lower": "2021-07-31",
     "date:inception_upper": "2021-07-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-31",
+    "edtf:cessation": "2021-08-01T05:19:58Z",
+    "edtf:inception": "2021-07-31T12:03:01-07:00",
     "flysfo:actual_timestamp": 1627782120,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-07-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO82544700"
+    },
     "wof:country": "US",
     "wof:created": 1627834653,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746092113,
     "wof:involves": [
+      1159292085, 
       102534097, 
       102527513, 
       1159285413, 
       1745882303
     ],
-    "wof:lastmodified": 1627834653,
+    "wof:lastmodified": 1627834794,
     "wof:name": "UA1735 (SFO-IAH)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "event",

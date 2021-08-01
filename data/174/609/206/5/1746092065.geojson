@@ -2,10 +2,12 @@
   "id": 1746092065,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-07-31",
+    "date:cessation_upper": "2021-07-31",
     "date:inception_lower": "2021-07-31",
     "date:inception_upper": "2021-07-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-07-31",
+    "edtf:cessation": "2021-07-31T23:00:00Z",
+    "edtf:inception": "2021-07-31T18:13:00Z",
     "flysfo:actual_timestamp": 1627753860,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-07-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 32.795441,
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533243,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "161388093",
+      "swim:gufi": "KO55665700"
+    },
     "wof:country": "US",
     "wof:created": 1627834641,
     "wof:geomhash": "eed3ad030b4c80153105b635669626b5",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746092065,
     "wof:involves": [
-      102533243, 
       102527513, 
       1159285413, 
-      1745882303
+      1745882303, 
+      1377564285, 
+      102533243
     ],
-    "wof:lastmodified": 1627834641,
+    "wof:lastmodified": 1627834794,
     "wof:name": "UA1184 (SFO-TPA)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "event",
