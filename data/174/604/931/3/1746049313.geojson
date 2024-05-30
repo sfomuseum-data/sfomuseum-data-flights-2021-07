@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210721-D-SCX-8770",
     "sfomuseum:flight_number": [
-      "SCX8770", 
+      "SCX8770",
       "SY8770"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1626970602,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746049313
+      }
+    ],
     "wof:id": 1746049313,
     "wof:involves": [
-      102527513, 
-      1159285227, 
-      1159289871, 
+      102527513,
+      1159285227,
+      1159289871,
       102532251
     ],
-    "wof:lastmodified": 1626970774,
+    "wof:lastmodified": 1717034753,
     "wof:name": "SY8770 (SFO-PDX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.597389, 
-    37.61799, 
-    -122.370943, 
+    -122.597389,
+    37.61799,
+    -122.370943,
     45.586144
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-122.597389,45.586144]],"type":"MultiPoint"}

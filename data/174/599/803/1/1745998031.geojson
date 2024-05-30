@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210702-D-UAL-1390",
     "sfomuseum:flight_number": [
-      "UAL1390", 
+      "UAL1390",
       "UA1390"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1625328940,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745998031
+      }
+    ],
     "wof:id": 1745998031,
     "wof:involves": [
-      102533795, 
-      102527513, 
-      1159285413, 
+      102533795,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1625328940,
+    "wof:lastmodified": 1717034751,
     "wof:name": "UA1390 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-118.38951,33.942593]],"type":"MultiPoint"}

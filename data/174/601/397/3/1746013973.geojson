@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102551065,
     "sfomuseum:flight_id": "20210707-A-CSN-8043",
     "sfomuseum:flight_number": [
-      "CSN8043", 
+      "CSN8043",
       "CZ8043"
     ],
     "sfomuseum:placetype": "flight",
@@ -48,26 +48,33 @@
     "wof:country": "US",
     "wof:created": 1625760276,
     "wof:geomhash": "79fa80c38cee3f9a1cadedd473680b07",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746013973
+      }
+    ],
     "wof:id": 1746013973,
     "wof:involves": [
-      1159293215, 
-      102527513, 
-      102551065, 
+      1159293215,
+      102527513,
+      102551065,
       1159284165
     ],
-    "wof:lastmodified": 1625761040,
+    "wof:lastmodified": 1717034750,
     "wof:name": "CZ8043 (CTU-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    30.579342, 
-    103.956661, 
+    -122.370943,
+    30.579342,
+    103.956661,
     37.61799
   ],
   "geometry": {"coordinates":[[103.956661,30.579342],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -33,40 +33,47 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210701-D-SWA-8510",
     "sfomuseum:flight_number": [
-      "SWA8510", 
+      "SWA8510",
       "WN8510"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1625242606,
     "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745993967
+      }
+    ],
     "wof:id": 1745993967,
     "wof:involves": [
-      1159289869, 
-      102532771, 
-      102527513, 
+      1159289869,
+      102532771,
+      102527513,
       1159285591
     ],
-    "wof:lastmodified": 1625242763,
+    "wof:lastmodified": 1717034748,
     "wof:name": "WN8510 (SFO-BUR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    34.196704, 
-    -118.353322, 
+    -122.370943,
+    34.196704,
+    -118.353322,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-118.353322,34.196704]],"type":"MultiPoint"}

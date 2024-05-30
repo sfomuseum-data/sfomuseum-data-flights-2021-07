@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210714-D-VIR-6858",
     "sfomuseum:flight_number": [
-      "VIR6858", 
+      "VIR6858",
       "VS6858"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1626365797,
     "wof:geomhash": "b03e5f5c78933bb0f626aa81ed57f330",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746043339
+      }
+    ],
     "wof:id": 1746043339,
     "wof:involves": [
-      102542801, 
-      102527513, 
-      1159285483, 
-      -1, 
+      102542801,
+      102527513,
+      1159285483,
+      -1,
       1159284613
     ],
-    "wof:lastmodified": 1626365797,
+    "wof:lastmodified": 1717034750,
     "wof:name": "VS6858 (SFO-AMS)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    4.782907, 
+    -122.370943,
+    37.61799,
+    4.782907,
     52.314791
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[4.782907,52.314791]],"type":"MultiPoint"}

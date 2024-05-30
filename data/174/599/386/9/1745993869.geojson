@@ -33,39 +33,46 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210701-D-SCX-398",
     "sfomuseum:flight_number": [
-      "SCX398", 
+      "SCX398",
       "SY398"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-path", 
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1625242580,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745993869
+      }
+    ],
     "wof:id": 1745993869,
     "wof:involves": [
-      1159289871, 
-      102531131, 
-      102527513, 
+      1159289871,
+      102531131,
+      102527513,
       1159285227
     ],
-    "wof:lastmodified": 1625242763,
+    "wof:lastmodified": 1717034748,
     "wof:name": "SY398 (SFO-MSP)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -93.200317, 
+    -122.370943,
+    37.61799,
+    -93.200317,
     44.883321
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-93.200317,44.883321]],"type":"MultiPoint"}

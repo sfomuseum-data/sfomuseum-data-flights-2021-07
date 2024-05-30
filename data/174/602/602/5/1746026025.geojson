@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102558779,
     "sfomuseum:flight_id": "20210710-A-FBU-711",
     "sfomuseum:flight_number": [
-      "FBU711", 
+      "FBU711",
       "BF711"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1626019568,
     "wof:geomhash": "cb635fc427df70f0d5f88d1f39ad4ded",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746026025
+      }
+    ],
     "wof:id": 1746026025,
     "wof:involves": [
-      102527513, 
-      102558779, 
-      1377649073, 
+      102527513,
+      102558779,
+      1377649073,
       -1
     ],
-    "wof:lastmodified": 1626019568,
+    "wof:lastmodified": 1717034751,
     "wof:name": "BF711 (PPT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -149.617144, 
-    -17.573463, 
-    -122.370943, 
+    -149.617144,
+    -17.573463,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-149.617144,-17.573463],[-122.370943,37.61799]],"type":"MultiPoint"}

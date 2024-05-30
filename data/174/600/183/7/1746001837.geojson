@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210703-D-UAL-2736",
     "sfomuseum:flight_number": [
-      "UAL2736", 
+      "UAL2736",
       "UA2736"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1625415340,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746001837
+      }
+    ],
     "wof:id": 1746001837,
     "wof:involves": [
-      102527513, 
-      1159285413, 
-      1159289939, 
+      102527513,
+      1159285413,
+      1159289939,
       102528817
     ],
-    "wof:lastmodified": 1625415413,
+    "wof:lastmodified": 1717034748,
     "wof:name": "UA2736 (SFO-IAD)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -77.453702, 
+    -122.370943,
+    37.61799,
+    -77.453702,
     38.949246
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-77.453702,38.949246]],"type":"MultiPoint"}

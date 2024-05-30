@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210713-D-SWA-8883",
     "sfomuseum:flight_number": [
-      "SWA8883", 
+      "SWA8883",
       "WN8883"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1626279418,
     "wof:geomhash": "9e57705c73bd73668d4b0d529a043646",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746039737
+      }
+    ],
     "wof:id": 1746039737,
     "wof:involves": [
-      102527529, 
-      102527513, 
-      1159285591, 
+      102527529,
+      102527513,
+      1159285591,
       -1
     ],
-    "wof:lastmodified": 1626279418,
+    "wof:lastmodified": 1717034754,
     "wof:name": "WN8883 (SFO-SJC)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.363728, 
-    -121.928755, 
+    -122.370943,
+    37.363728,
+    -121.928755,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-121.928755,37.363728]],"type":"MultiPoint"}

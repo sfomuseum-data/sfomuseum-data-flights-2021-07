@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102536387,
     "sfomuseum:flight_id": "20210701-A-AMX-608",
     "sfomuseum:flight_number": [
-      "AMX608", 
+      "AMX608",
       "AM608"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1625241796,
     "wof:geomhash": "d1cf00e952c40abdeded8d31cdcdf72b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745991061
+      }
+    ],
     "wof:id": 1745991061,
     "wof:involves": [
-      1159289871, 
-      102527513, 
-      102536387, 
+      1159289871,
+      102527513,
+      102536387,
       1159283539
     ],
-    "wof:lastmodified": 1625242765,
+    "wof:lastmodified": 1717034755,
     "wof:name": "AM608 (GDL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    20.525627, 
-    -103.301974, 
+    -122.370943,
+    20.525627,
+    -103.301974,
     37.61799
   ],
   "geometry": {"coordinates":[[-103.301974,20.525627],[-122.370943,37.61799]],"type":"MultiPoint"}

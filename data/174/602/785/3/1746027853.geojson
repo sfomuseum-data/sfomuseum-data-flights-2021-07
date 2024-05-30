@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210710-D-FBU-711",
     "sfomuseum:flight_number": [
-      "FBU711", 
+      "FBU711",
       "BF711"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1626020053,
     "wof:geomhash": "edaaf2818a2a544efcecaa79ec77eac5",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746027853
+      }
+    ],
     "wof:id": 1746027853,
     "wof:involves": [
-      102544453, 
-      102527513, 
-      1377649073, 
+      102544453,
+      102527513,
+      1377649073,
       -1
     ],
-    "wof:lastmodified": 1626020053,
+    "wof:lastmodified": 1717034753,
     "wof:name": "BF711 (SFO-ORY)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    2.36613, 
+    -122.370943,
+    37.61799,
+    2.36613,
     48.729315
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[2.36613,48.729315]],"type":"MultiPoint"}

@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102533269,
     "sfomuseum:flight_id": "20210731-A-ASA-1258",
     "sfomuseum:flight_number": [
-      "ASA1258", 
+      "ASA1258",
       "AS1258"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1627833924,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746089385
+      }
+    ],
     "wof:id": 1746089385,
     "wof:involves": [
-      102527513, 
-      102533269, 
-      1159283813, 
+      102527513,
+      102533269,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1627833924,
+    "wof:lastmodified": 1717034752,
     "wof:name": "AS1258 (SEA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -122.304268, 
+    -122.370943,
+    37.61799,
+    -122.304268,
     47.441823
   ],
   "geometry": {"coordinates":[[-122.304268,47.441823],[-122.370943,37.61799]],"type":"MultiPoint"}

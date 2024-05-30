@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210714-D-DAL-399",
     "sfomuseum:flight_number": [
-      "DAL399", 
+      "DAL399",
       "DL399"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1626365570,
     "wof:geomhash": "d81f35c9bd76192177056b7c45b4498c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746042469
+      }
+    ],
     "wof:id": 1746042469,
     "wof:involves": [
-      102527969, 
-      102527513, 
-      1159284261, 
+      102527969,
+      102527513,
+      1159284261,
       -1
     ],
-    "wof:lastmodified": 1626365570,
+    "wof:lastmodified": 1717034749,
     "wof:name": "DL399 (SFO-RDD)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -122.29822, 
+    -122.370943,
+    37.61799,
+    -122.29822,
     40.507596
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-122.29822,40.507596]],"type":"MultiPoint"}

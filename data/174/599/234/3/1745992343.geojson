@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102531189,
     "sfomuseum:flight_id": "20210701-A-UAL-2744",
     "sfomuseum:flight_number": [
-      "UAL2744", 
+      "UAL2744",
       "UA2744"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1625242165,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745992343
+      }
+    ],
     "wof:id": 1745992343,
     "wof:involves": [
-      1159292085, 
-      102527513, 
-      102531189, 
+      1159292085,
+      102527513,
+      102531189,
       1159285413
     ],
-    "wof:lastmodified": 1625242767,
+    "wof:lastmodified": 1717034754,
     "wof:name": "UA2744 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -104.672219, 
+    -122.370943,
+    37.61799,
+    -104.672219,
     39.864939
   ],
   "geometry": {"coordinates":[[-104.672219,39.864939],[-122.370943,37.61799]],"type":"MultiPoint"}

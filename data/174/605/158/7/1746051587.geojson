@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527363,
     "sfomuseum:flight_id": "20210722-A-UAL-1380",
     "sfomuseum:flight_number": [
-      "UAL1380", 
+      "UAL1380",
       "UA1380"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1627056691,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746051587
+      }
+    ],
     "wof:id": 1746051587,
     "wof:involves": [
-      102527513, 
-      102527363, 
-      1159285413, 
+      102527513,
+      102527363,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1627056691,
+    "wof:lastmodified": 1717034748,
     "wof:name": "UA1380 (SLC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -111.980566, 
+    -122.370943,
+    37.61799,
+    -111.980566,
     40.78217
   ],
   "geometry": {"coordinates":[[-111.980566,40.78217],[-122.370943,37.61799]],"type":"MultiPoint"}

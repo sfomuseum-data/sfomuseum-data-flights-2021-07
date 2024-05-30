@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102528997,
     "sfomuseum:flight_id": "20210723-A-SWA-2343",
     "sfomuseum:flight_number": [
-      "SWA2343", 
+      "SWA2343",
       "WN2343"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1627143074,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746055565
+      }
+    ],
     "wof:id": 1746055565,
     "wof:involves": [
-      1159289869, 
-      102527513, 
-      102528997, 
+      1159289869,
+      102527513,
+      102528997,
       1159285591
     ],
-    "wof:lastmodified": 1627143762,
+    "wof:lastmodified": 1717034752,
     "wof:name": "WN2343 (SAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.733534, 
-    -117.185927, 
+    -122.370943,
+    32.733534,
+    -117.185927,
     37.61799
   ],
   "geometry": {"coordinates":[[-117.185927,32.733534],[-122.370943,37.61799]],"type":"MultiPoint"}

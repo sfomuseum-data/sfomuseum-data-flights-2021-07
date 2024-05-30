@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210702-D-AFR-85",
     "sfomuseum:flight_number": [
-      "AFR85", 
+      "AFR85",
       "AF85"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1625328645,
     "wof:geomhash": "ad7dd7ece479a882a3440fb19be6ff4c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745996849
+      }
+    ],
     "wof:id": 1745996849,
     "wof:involves": [
-      102544459, 
-      102527513, 
-      1159283627, 
+      102544459,
+      102527513,
+      1159283627,
       -1
     ],
-    "wof:lastmodified": 1625328645,
+    "wof:lastmodified": 1717034750,
     "wof:name": "AF85 (SFO-CDG)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    2.542809, 
+    -122.370943,
+    37.61799,
+    2.542809,
     49.007854
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[2.542809,49.007854]],"type":"MultiPoint"}

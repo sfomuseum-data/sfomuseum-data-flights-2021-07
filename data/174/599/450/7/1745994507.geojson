@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210701-D-VOI-2200",
     "sfomuseum:flight_number": [
-      "VOI2200", 
+      "VOI2200",
       "Y42200"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1625242754,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1745994507
+      }
+    ],
     "wof:id": 1745994507,
     "wof:involves": [
-      102527209, 
-      102527513, 
-      1360700749, 
+      102527209,
+      102527513,
+      1360700749,
       -1
     ],
-    "wof:lastmodified": 1625242754,
+    "wof:lastmodified": 1717034748,
     "wof:name": "Y42200 (SFO-LAS)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    36.081003, 
-    -115.15644, 
+    -122.370943,
+    36.081003,
+    -115.15644,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-115.15644,36.081003]],"type":"MultiPoint"}

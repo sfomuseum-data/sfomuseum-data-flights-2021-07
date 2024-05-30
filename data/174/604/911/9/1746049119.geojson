@@ -99,10 +99,13 @@
       1159284583,
       1745882339
     ],
-    "wof:lastmodified": 1653097023,
+    "wof:lastmodified": 1717034753,
     "wof:name": "B62835 (SFO-LAX)",
     "wof:parent_id": 1745882369,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []

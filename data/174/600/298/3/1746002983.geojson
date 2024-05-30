@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20210704-A-DAL-8886",
     "sfomuseum:flight_number": [
-      "DAL8886", 
+      "DAL8886",
       "DL8886"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1625501080,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746002983
+      }
+    ],
     "wof:id": 1746002983,
     "wof:involves": [
-      1159284261, 
-      1159289939, 
-      102527513, 
+      1159284261,
+      1159289939,
+      102527513,
       102526751
     ],
-    "wof:lastmodified": 1625501830,
+    "wof:lastmodified": 1717034748,
     "wof:name": "DL8886 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}

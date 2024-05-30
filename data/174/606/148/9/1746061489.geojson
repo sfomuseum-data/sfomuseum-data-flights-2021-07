@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210724-D-UAL-3012",
     "sfomuseum:flight_number": [
-      "UAL3012", 
+      "UAL3012",
       "UA3012"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1627229782,
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746061489
+      }
+    ],
     "wof:id": 1746061489,
     "wof:involves": [
-      1159289993, 
-      102532929, 
-      102527513, 
+      1159289993,
+      102532929,
+      102527513,
       1159285413
     ],
-    "wof:lastmodified": 1627229875,
+    "wof:lastmodified": 1717034748,
     "wof:name": "UA3012 (SFO-OGG)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -156.437877, 
-    20.894952, 
-    -122.370943, 
+    -156.437877,
+    20.894952,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-156.437877,20.894952]],"type":"MultiPoint"}

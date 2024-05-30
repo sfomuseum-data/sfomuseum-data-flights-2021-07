@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102532251,
     "sfomuseum:flight_id": "20210722-A-ASA-9800",
     "sfomuseum:flight_number": [
-      "ASA9800", 
+      "ASA9800",
       "AS9800"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1627056379,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746050693
+      }
+    ],
     "wof:id": 1746050693,
     "wof:involves": [
-      1159289871, 
-      102527513, 
-      102532251, 
+      1159289871,
+      102527513,
+      102532251,
       1159283813
     ],
-    "wof:lastmodified": 1627057356,
+    "wof:lastmodified": 1717034748,
     "wof:name": "AS9800 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.597389, 
-    37.61799, 
-    -122.370943, 
+    -122.597389,
+    37.61799,
+    -122.370943,
     45.586144
   ],
   "geometry": {"coordinates":[[-122.597389,45.586144],[-122.370943,37.61799]],"type":"MultiPoint"}
